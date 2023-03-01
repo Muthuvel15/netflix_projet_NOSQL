@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Example</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}"> <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+  </head>
+  <body>
+    <table id="data" class="table table-striped">
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Date Added</th>
+          <th>Description</th>
+          <th>Director</th>
+          <th>Duration</th>
+          <th>Listed In</th>
+          <th>Rating</th>
+          <th>Release Year</th>
+          <th>Show ID</th>
+          <th>Title</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in data %}
+          <tr>
+            <td>{{ item['country'] }}</td>
+            <td>{{ item['date_added'] }}</td>
+            <td>{{ item['description'] }}</td>
+            <td>{{ item['director'] }}</td>
+            <td>{{ item['duration'] }}</td>
+            <td>{{ item['listed_in'] }}</td>
+            <td>{{ item['rating'] }}</td>
+            <td>{{ item['release_year'] }}</td>
+            <td>{{ item['show_id'] }}</td>
+            <td>{{ item['title'] }}</td>
+            <td>{{ item['type'] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

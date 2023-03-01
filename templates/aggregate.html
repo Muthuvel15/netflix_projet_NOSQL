@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aggregate Results</title>
+  </head>
+  <body>
+    <h1>Aggregate Results</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in data %}
+          <tr>
+            <td>{{ item['_id'] }}</td>
+            <td>{{ item['nb'] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
