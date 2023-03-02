@@ -31,6 +31,15 @@ Pour se connecter à une base de données MongoDB, vous devez disposer d'une cha
 mongodb+srv://muthuvel:muthuvel123@cluster.cemcbh8.mongodb.net/?retryWrites=true&w=majority
 ```
 
+## Capture screen : 
+
+![Screenshot](data1.png)
+
+
+
+
+
+
 Conclusion
 Avec ces packages installés et une chaîne de connexion MongoDB valide, vous êtes prêt à commencer à construire votre application Python en utilisant Flask et Plotly !
 
