@@ -1,12 +1,14 @@
 <head>
+  {% extends "landing.html" %}
     <title>Table Example</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}"> <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
   </head>
-  {% extends "base.html" %}
+ 
 
 {% block content %}
   <body>
-    <table id="data" class="table table-striped">
+    <div class ="table-container">
+    <table class="styled">
       <thead>
         <tr>
           <th>Country</th>
@@ -40,6 +42,5 @@
         {% endfor %}
       </tbody>
     </table>
-    {% endblock %}
   </body>
-
+  {% endblock %}

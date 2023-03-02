@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+{% extends "landing.html" %}
+<head>
+    <title>Netflix Search Results</title>
+</head>
+{% block content %}
+<body>
+    <h1>Search Results for "{{ title }}"</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Date Added</th>
+                <th>Description</th>
+                <th>Director</th>
+                <th>Duration</th>
+                <th>Listed In</th>
+                <th>Rating</th>
+                <th>Release Year</th>
+                <th>Show ID</th>
+                <th>Title</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for doc in result %}
+            <tr>
+                <td>{{ doc.country }}</td>
+                <td>{{ doc.date_added }}</td>
+                <td>{{ doc.description }}</td>
+                <td>{{ doc.director }}</td>
+                <td>{{ doc.duration }}</td>
+                <td>{{ doc.listed_in }}</td>
+                <td>{{ doc.rating }}</td>
+                <td>{{ doc.release_year }}</td>
+                <td>{{ doc.show_id }}</td>
+                <td>{{ doc.title }}</td>
+                <td>{{ doc.type }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+{% endblock %}
+</html>

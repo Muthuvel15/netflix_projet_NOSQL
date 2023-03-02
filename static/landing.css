@@ -1,0 +1,214 @@
+/* Reset styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f8f8f8;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+/* Header styles */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	font-weight: bold;
+}
+
+/* Main styles */
+
+main {
+	padding: 100px 0;
+}
+
+.hero {
+	background-color: #eee;
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	margin-bottom: 30px;
+}
+
+.features {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.features h2 {
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+
+.feature {
+	margin-bottom: 50px;
+}
+
+.feature i {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.feature h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.testimonials {
+	background-color: #eee;
+	padding: 50px;
+	text-align: center;
+}
+
+.testimonials h2 {
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+
+.testimonial {
+	margin-bottom: 50px;
+}
+
+.testimonial p {
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.testimonial span {
+	font-weight: bold;
+}
+
+/* Footer styles */
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}

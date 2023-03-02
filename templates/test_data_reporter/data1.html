@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html>
+{% extends "landing.html" %}
   <head>
-    <title>Aggregate Results</title>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
   </head>
   <body>
-    <h1>Aggregate Results</h1>
+    {% block content %}
+    <h1>Quels sont les genres des films les plus vus sur la plateforme ?</h1>
     <table>
       <thead>
         <tr>
@@ -22,4 +23,5 @@
       </tbody>
     </table>
   </body>
-</html>
+  {% endblock %}
+ 

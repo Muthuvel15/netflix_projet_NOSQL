@@ -1,0 +1,10 @@
+{% extends "landing.html" %}
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    {% block content %}
+    {{ plot_html | safe }}
+  </body>
+  {% endblock %}
