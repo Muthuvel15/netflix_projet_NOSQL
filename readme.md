@@ -33,7 +33,7 @@ mongodb+srv://muthuvel:muthuvel123@cluster.cemcbh8.mongodb.net/?retryWrites=true
 
 ## Capture screen : 
 
-![Screenshot](data1.png)
+![My Image](data.png "A picture of my image")
 
 
 
