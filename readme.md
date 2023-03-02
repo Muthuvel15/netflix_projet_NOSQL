@@ -33,8 +33,33 @@ mongodb+srv://muthuvel:muthuvel123@cluster.cemcbh8.mongodb.net/?retryWrites=true
 
 ## Capture screen : 
 
+### - Quels sont les genres des films les plus vus sur la plateforme ?
+
 ![Alt text](/image/data1.png "Optional title")
 
+### - Quel est le top 10 des directeurs ayant réalisé le plus de films ?
+
+![Alt text](/image/data2.png "Optional title")
+
+### - Quels pays produisent le plus de films/séries ?
+
+![Alt text](/image/data3.png "Optional title")
+
+### - En quelle année est sorti le plus de films ?
+
+![Alt text](/image/data4.png "Optional title")
+
+### - Quels sont les genres de films les plus populaires dans le top 100 ?
+
+![Alt text](/image/data5.png "Optional title")
+
+### La partie CRUD : 
+
+![Alt text](/image/crud.png "Optional title")
+
+![Alt text](/image/crud_1.png "Optional title")
+
+![Alt text](/image/crud(2).png "Optional title")
 
 
 
