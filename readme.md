@@ -33,6 +33,14 @@ mongodb+srv://muthuvel:muthuvel123@cluster.cemcbh8.mongodb.net/?retryWrites=true
 
 ## Capture screen : 
 
+### MongoDB 
+
+![Alt text](/image/mongoDB.png "Optional title")
+
+
+![Alt text](/image/mongoDB_1.png "Optional title")
+
+
 ### - Quels sont les genres des films les plus vus sur la plateforme ?
 
 ![Alt text](/image/data1.png "Optional title")
@@ -58,6 +66,8 @@ mongodb+srv://muthuvel:muthuvel123@cluster.cemcbh8.mongodb.net/?retryWrites=true
 ![Alt text](/image/crud.png "Optional title")
 
 ![Alt text](/image/crud_1.png "Optional title")
+
+
 
 
 
