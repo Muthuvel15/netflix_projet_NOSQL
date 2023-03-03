@@ -1,5 +1,5 @@
 # Projet Netflix 
-## réalise par
+## réalisé par
 ###  Muthuvel SAVOUNDIRAPANDIANE | Nabila EL ABDALI | Arnaud LAGARDE | Ryan FONTAINE
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
@@ -59,7 +59,7 @@ mongodb+srv://muthuvel:muthuvel123@cluster.cemcbh8.mongodb.net/?retryWrites=true
 
 ![Alt text](/image/crud_1.png "Optional title")
 
-![Alt text](/image/crud(2).png "Optional title")
+
 
 
 
